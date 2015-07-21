@@ -13,7 +13,11 @@ When user makes an input *(e.g. clicks, drags, types something)* your website re
  - And you use a **Micro-interaction** when you want only a particular element of a page to react to user input - like show a drop-down menu or reveal more details of a product. 
 
 ##Why it is important
-Face a fact! Minor, unnoticeable details deals a huge impact on great design and draws a line between just **"fine"** and **"awesome"** experience. Enriching your website with micro-interactions not only makes it more usable, but renders a positive emotions for users. Experiencing such emotions means more dopamine is consumed and this literally makes them more addicted to your website. 
+Face a fact! Minor, *seemingly* unnoticeable details can have huge impact on user experience and is often the difference between just **"fine"** and **"awesome"** experience. 
+
+{EDITOR NOTE} It might be good to drop in a quick real world example here? Apple sweating on their packaging design or any luxury car maker that tunes the note and resonances of their car door slams just so they make the most satisfying clunk. Neither are core to the product, but become unconsciously important in the whole UX. [http://gizmodo.com/5879097/apple-packing-is-so-good-because-they-employ-a-dedicated-box-opener] 
+
+Enriching your website with micro-interactions not only makes it more usable, but renders a positive emotions for users. Experiencing such emotions means more dopamine is consumed and this literally makes them more addicted to your website. 
 
 ##How do we make things elegant?
 A website should feel like a concert of interactive interface elements working together to impress you. Elegance is the key criteria to make such impression. Though we can't express elegance in tech terms, we can use some logic hacks that helps us to create elegant interactions.   
@@ -46,15 +50,20 @@ Sometimes it happens that users change their mind quickly, in the middle of tran
 ![Transition rollback](https://www.dropbox.com/s/8vpl43yve8t2obo/transition-rollback.png?dl=1)
 
 ###Focus on next action in series
+
 This particular tip is dedicated for interactions where users perform a sequence of actions. When designing such sequence, you should avoid any unnecessary interactions and always set focus on the next control in sequence. The most basic example of such interaction is an *[edit]* button that opens a form and magically focuses on the first field so that user does not need to click it manually.
 
 ![Focus](https://www.dropbox.com/s/o6sbbazqa9qc3zy/focus.png?dl=1)
 
 ###Necessity of action Feedback 
-Users should always recognize a time when interaction is done. If some kind of interaction does not obviously change website appearance, you should always consider implementing visual feedback that tells users *"Hey you, it's done!"*. In situations you skip that, users tend to repeat the same action multiple times, thus making a mistake and even corrupting something precious. 
+Users should always recognize when an interaction is done. If some kind of action has no obvious effect on the website appearance, you should always consider implementing some kind of visual feedback that tells users *"Hey you, it's done!"*. 
+
+In situations where you fail to do this, users tend to repeat the same action multiple times, thus making a mistake and even corrupting an important process, such as double submitting a form. 
 
 ![Feedback](https://www.dropbox.com/s/iayfkhuc2ib0o33/feedback.png?dl=1)
 
 ##Applying these hacks
+
 In short, you can use these hacks as cheat-sheet for implementing micro-interactions on your website. It should help you design the details of interaction before you implement them. However, there is a good chance that you won't make them perfect at first time. In that case you will need to tweak them according to the situation - so be prepared to play around a little. 
+
 Aaaaand... there just the last tip for take away. In general, the more interaction surrenders to the laws of real world physics, the more it feels natural and elegant. Have animating fun! 
